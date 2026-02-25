@@ -1,9 +1,12 @@
 using System;
-using Application1.Interfaces;
-using Domain1.Entities;
 using Microsoft.EntityFrameworkCore;
+using QuestionApp.Application1.Interfaces;
+using QuestionApp.Domain1.Entities;
+// using Application1.Interfaces;
+// using Domain1.Entities;
+// using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure1.Persistence.Repositories;
+namespace QuestionApp.Infrastructure1.Persistence.Repositories;
 
 public class QuestionRepository: IQuestionRepository
 {

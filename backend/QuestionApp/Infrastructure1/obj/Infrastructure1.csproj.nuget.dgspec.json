@@ -1,115 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Infrastructure1\\Infrastructure1.csproj": {}
+    "/Users/sde/development/Assignment-ThaiBev/Assignment-ThaiBev/backend/QuestionApp/Infrastructure1/Infrastructure1.csproj": {}
   },
   "projects": {
-    "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Application1\\Application1.csproj": {
+    "/Users/sde/development/Assignment-ThaiBev/Assignment-ThaiBev/backend/QuestionApp/Infrastructure1/Infrastructure1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Application1\\Application1.csproj",
-        "projectName": "Application1",
-        "projectPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Application1\\Application1.csproj",
-        "packagesPath": "C:\\Users\\thosaphol.vua\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Application1\\obj\\",
+        "projectUniqueName": "/Users/sde/development/Assignment-ThaiBev/Assignment-ThaiBev/backend/QuestionApp/Infrastructure1/Infrastructure1.csproj",
+        "projectName": "Infrastructure1",
+        "projectPath": "/Users/sde/development/Assignment-ThaiBev/Assignment-ThaiBev/backend/QuestionApp/Infrastructure1/Infrastructure1.csproj",
+        "packagesPath": "/Users/sde/.nuget/packages/",
+        "outputPath": "/Users/sde/development/Assignment-ThaiBev/Assignment-ThaiBev/backend/QuestionApp/Infrastructure1/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\thosaphol.vua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sde/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlabsource.bla.co.th/api/v4/projects/78/packages/nuget/index.json": {}
-        },
-        "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {
-              "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Domain1\\Domain1.csproj": {
-                "projectPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Domain1\\Domain1.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Domain1\\Domain1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Domain1\\Domain1.csproj",
-        "projectName": "Domain1",
-        "projectPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Domain1\\Domain1.csproj",
-        "packagesPath": "C:\\Users\\thosaphol.vua\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Domain1\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\thosaphol.vua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net9.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlabsource.bla.co.th/api/v4/projects/78/packages/nuget/index.json": {}
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -125,88 +37,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Infrastructure1\\Infrastructure1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Infrastructure1\\Infrastructure1.csproj",
-        "projectName": "Infrastructure1",
-        "projectPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Infrastructure1\\Infrastructure1.csproj",
-        "packagesPath": "C:\\Users\\thosaphol.vua\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Infrastructure1\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\thosaphol.vua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net9.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlabsource.bla.co.th/api/v4/projects/78/packages/nuget/index.json": {}
-        },
-        "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {
-              "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Application1\\Application1.csproj": {
-                "projectPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Application1\\Application1.csproj"
-              },
-              "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Domain1\\Domain1.csproj": {
-                "projectPath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Domain1\\Domain1.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -228,12 +61,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.13, 9.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.13, 9.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

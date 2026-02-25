@@ -1,6 +1,6 @@
 using System;
 
-namespace Application1.DTOs;
+namespace QuestionApp.Application1.DTOs;
 
 public class QuestionDto
 {

@@ -1,9 +1,12 @@
 using System;
-using Application1.DTOs;
-using Application1.Interfaces;
-using Domain1.Entities;
+using QuestionApp.Application1.DTOs;
+using QuestionApp.Application1.Interfaces;
+using QuestionApp.Domain1.Entities;
+// using Application1.DTOs;
+// using Application1.Interfaces;
+// using Domain1.Entities;
 
-namespace Application1.Services;
+namespace QuestionApp.Application1.Services;
 
 public class QuestionService
 {

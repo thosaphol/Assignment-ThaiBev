@@ -1,6 +1,6 @@
 using System;
 
-namespace Domain1.Entities;
+namespace QuestionApp.Domain1.Entities;
 
 public class Question
 {

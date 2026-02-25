@@ -1,8 +1,10 @@
 using System;
-using Domain1.Entities;
 using Microsoft.EntityFrameworkCore;
+using QuestionApp.Domain1.Entities;
+// using Domain1.Entities;
+// using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure1.Persistence;
+namespace QuestionApp.Infrastructure1.Persistence;
 
 public class AppDbContext: DbContext
 {

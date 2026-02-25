@@ -1,10 +1,10 @@
 
-using Infrastructure1;
-using Microsoft.EntityFrameworkCore;
-using QuestionApp.Application.Interfaces;
-using QuestionApp.Application.Services;
-using QuestionApp.Infrastructure.Persistence;
-using QuestionApp.Infrastructure.Persistence.Repositories;
+
+// using QuestionApp.Application1.Interfaces;
+// using QuestionApp.Application1.Services;
+// using QuestionApp.Infrastructure1.Persistence;
+// using QuestionApp.Infrastructure1.Persistence.Repositories;
+using QuestionApp.Infrastructure1;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,11 +15,11 @@ builder.Services.AddControllers();
 // builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
-builder.Services.AddScoped<QuestionService>();
+// builder.Services.AddDbContext<AppDbContext>(options =>
+//     options.UseSqlServer(
+//         builder.Configuration.GetConnectionString("DefaultConnection")));
+// builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
+// builder.Services.AddScoped<QuestionService>();
 
 builder.Services.AddInfrastructure();
 

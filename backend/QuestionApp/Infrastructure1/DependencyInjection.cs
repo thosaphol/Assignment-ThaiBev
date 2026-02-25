@@ -1,9 +1,11 @@
 
-using Application1.Interfaces;
-using Infrastructure1.Persistence.Repositories;
-using Microsoft.Extensions.DependencyInjection;
+// using Application1.Interfaces;
 
-namespace Infrastructure1;
+using Microsoft.Extensions.DependencyInjection;
+using QuestionApp.Application1.Interfaces;
+using QuestionApp.Infrastructure1.Persistence.Repositories;
+
+namespace QuestionApp.Infrastructure1;
 
 public static class DependencyInjection
 {

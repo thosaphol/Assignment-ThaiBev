@@ -1,7 +1,8 @@
 using System;
-using Domain1.Entities;
+using QuestionApp.Domain1.Entities;
+// using Domain1.Entities;
 
-namespace Application1.Interfaces;
+namespace QuestionApp.Application1.Interfaces;
 
 public interface IQuestionRepository
 {

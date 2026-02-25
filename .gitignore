@@ -10,9 +10,9 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
-backend/QuestionApp/QuestionApp/obj/
-backend/QuestionApp/Domain1/obj/
-backend/QuestionApp/Application1/obj/
+backend/QuestionApp/QuestionApp/obj
+backend/QuestionApp/Domain1/obj
+backend/QuestionApp/Application1/obj
 backend/QuestionApp/Infrastructure1/obj
 [Oo]bj/
 [Ll]og/
