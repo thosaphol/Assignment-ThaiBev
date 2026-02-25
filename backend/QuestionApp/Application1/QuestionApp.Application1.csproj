@@ -16,4 +16,8 @@
     <ProjectReference Include="../Domain1/QuestionApp.Domain1.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.3" />
+  </ItemGroup>
+
 </Project>

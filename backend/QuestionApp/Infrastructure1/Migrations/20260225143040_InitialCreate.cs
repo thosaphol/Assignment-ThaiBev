@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace QuestionApp.Migrations
+namespace QuestionApp.Infrastructure1.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

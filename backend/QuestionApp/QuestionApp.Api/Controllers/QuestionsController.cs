@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using QuestionApp.Application.DTOs;
-using QuestionApp.Application.Services;
+using QuestionApp.Application1.DTOs;
+using QuestionApp.Application1.Services;
 using QuestionApp.Models;
 
-namespace QuestionApp.Controllers
+namespace QuestionApp.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

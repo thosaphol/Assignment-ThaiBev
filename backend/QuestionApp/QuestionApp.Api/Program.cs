@@ -5,7 +5,7 @@
 // using QuestionApp.Infrastructure1.Persistence;
 // using QuestionApp.Infrastructure1.Persistence.Repositories;
 using QuestionApp.Infrastructure1;
-
+using QuestionApp.Application1;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,7 +21,8 @@ builder.Services.AddSwaggerGen();
 // builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
 // builder.Services.AddScoped<QuestionService>();
 
-builder.Services.AddInfrastructure();
+builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplication();
 
 var app = builder.Build();
 
