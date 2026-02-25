@@ -18,18 +18,11 @@ import RegistrationQuestion from './components/RegistrationQuestion.vue';
       <HelloWorld msg="You did it!" />
     </div>
   </header> -->
+  <div class="container py-3">
+ <router-view />
+  </div>
 
-  <main>
-    <!-- <QuizPage /> -->
-     <!-- <RegistrationQuestion /> -->
-      <router-view />
-    <!-- <TheWelcome /> -->
-    <!-- <Question QuestionTitle="What is your favorite programming language?">
-      <Choice :ChoiceTitle="`JavaScript ${value}`" :ChoiceName="`programmingLanguage`" v-for="value in [0, 1, 2, 3]"
-        :key="value" />
-    </Question> -->
 
-  </main>
 </template>
 <!-- 
 <style scoped>

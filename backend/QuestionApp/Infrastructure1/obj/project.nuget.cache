@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tzjdZFgXXv4=",
+  "success": true,
+  "projectFilePath": "D:\\source\\Assignment-ThaiBev\\Assignment-ThaiBev\\backend\\QuestionApp\\Infrastructure1\\Infrastructure1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thosaphol.vua\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.13\\microsoft.extensions.dependencyinjection.abstractions.9.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

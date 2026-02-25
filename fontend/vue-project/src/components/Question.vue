@@ -1,8 +1,14 @@
 <template>
-    
-    <div class="question">
-        <h1>{{ QuestionTitle }}</h1>
-        <slot></slot>
+
+    <div class="row">
+        <div class="col-8">
+            <h1>{{ QuestionTitle }}</h1>
+            <slot></slot>
+        </div>
+        <div class="col-3">
+            <button type="button" class="btn btn-danger" @click="handleDelete">ลบ</button>
+        </div>
+
     </div>
 </template>
 
@@ -14,6 +20,9 @@ export default {
         }
     },
     methods: {
+        handleDelete() {
+            this.$emit('delete', this.id)
+        }
     },
     computed: {
     },
@@ -22,12 +31,15 @@ export default {
             type: String,
             default: 'Question Title'
             // required: true
+        },
+        id:{
+            type:String,
+
         }
     },
 }
 </script>
 
 <style scoped>
-.question {
-}
+.question {}
 </style>
