@@ -1,11 +1,6 @@
 
-
-// using QuestionApp.Application1.Interfaces;
-// using QuestionApp.Application1.Services;
-// using QuestionApp.Infrastructure1.Persistence;
-// using QuestionApp.Infrastructure1.Persistence.Repositories;
-using QuestionApp.Infrastructure1;
-using QuestionApp.Application1;
+using QuestionApp.Infrastructure;
+using QuestionApp.Application;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

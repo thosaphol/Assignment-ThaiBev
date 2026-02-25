@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using QuestionApp.Application1.DTOs;
-using QuestionApp.Application1.Services;
+using QuestionApp.Application.DTOs;
+using QuestionApp.Application.Services;
 using QuestionApp.Models;
 
 namespace QuestionApp.Api.Controllers
