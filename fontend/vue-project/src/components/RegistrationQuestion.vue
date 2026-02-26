@@ -57,7 +57,8 @@
 
 <script>
 
-import {AddQuestionService} from '@/services/questions'
+// import {AddQuestionService} from '@/services/questions'
+import { inject } from 'vue';
 export default {
     name: 'RegistrationQuestion',
     data() {
@@ -77,10 +78,17 @@ export default {
         },
         async saveQuestion() {
             // console.log(this.form)
-            await AddQuestionService(this.form)
+            // await AddQuestionService(this.form)
+            await this.addQuestionService(this.form)
             this.$router.push('/')
         }
         // Define your component methods here
+    },
+    setup() {
+        // Define your component setup logic here
+        const addQuestionService = inject('addQuestionService')
+        return { addQuestionService }
+        
     },
     
 };

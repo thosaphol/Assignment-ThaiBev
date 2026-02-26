@@ -26,6 +26,8 @@
 import Question from './Question.vue';
 import Choice from './Choice.vue';
 import {GetQuestionsService,DeleteQuestionService} from '@/services/questions'
+import { inject } from 'vue';
+let questionService = inject('questionService')
 
 export default {
     name: 'QuizPage',
@@ -42,7 +44,7 @@ export default {
             this.$router.push('/registration')
         },
         async handleDelete(id){
-            await DeleteQuestionService(id)
+            await this.deleteQuestionService(id)
             await this.RefreshQuestion()
             this.questions = this.questions.filter(q => q.id !== id)
         }
@@ -50,7 +52,8 @@ export default {
         async RefreshQuestion(){
             try {
                  console.log(import.meta.env.VITE_API_BASE_URL);
-                const response = await GetQuestionsService();
+                // const response = await GetQuestionsService();
+                const response = await this.questionService();
                 console.log('response log:',response);
                 let data = response;
                 this.questions = data;
@@ -68,6 +71,11 @@ export default {
         Question,
         Choice
         // Choice
+    },
+    setup() {
+        const questionService = inject('questionService')
+        const deleteQuestionService = inject('deleteQuestionService')
+        return { questionService, deleteQuestionService }
     },
 };
 </script>
