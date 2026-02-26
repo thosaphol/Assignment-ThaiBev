@@ -1,6 +1,6 @@
 // src/services/questions.js
 
-export const AddQuestionService = async ({QuestionName, Choice1, Choice2, Choice3, Choice4}) => {
+export const AddQuestionService = async ({ QuestionName, Choice1, Choice2, Choice3, Choice4 }) => {
     const questionData = {
         Title: QuestionName,
         Choice1, Choice2, Choice3, Choice4
@@ -43,16 +43,16 @@ export const GetQuestionsService = async () => {
         }
 
         const data = await response.json();
-        console.log('raw data:',data)
+        console.log('raw data:', data)
         let afterMap = data.map(question => ({
-            id:question.id,
+            id: question.id,
             QuestionTitle: question.title,
             Choice1: question.choice1,
             Choice2: question.choice2,
             Choice3: question.choice3,
             Choice4: question.choice4,
         }));
-        console.log('afterMap data:',afterMap)
+        console.log('afterMap data:', afterMap)
         return afterMap;
     } catch (error) {
         console.error('Error fetching questions:', error);
@@ -60,9 +60,45 @@ export const GetQuestionsService = async () => {
     }
 };
 
+export const GetQuestionServiceImpl = () => {
+    return {
+        async GetQuestionsService() {
+            try {
+                console.log(import.meta.env.VITE_API_BASE_URL);
+                const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Questions`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                });
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const data = await response.json();
+                console.log('raw data:', data)
+                let afterMap = data.map(question => ({
+                    id: question.id,
+                    QuestionTitle: question.title,
+                    Choice1: question.choice1,
+                    Choice2: question.choice2,
+                    Choice3: question.choice3,
+                    Choice4: question.choice4,
+                }));
+                console.log('afterMap data:', afterMap)
+                return afterMap;
+            } catch (error) {
+                console.error('Error fetching questions:', error);
+                throw error;
+            }
+        }
+    };
+};
+
 export async function DeleteQuestionService(id) {
     try {
-        console.log('delete id:',id)
+        console.log('delete id:', id)
         const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Questions/${id}`, {
             method: 'DELETE',
             headers: {
