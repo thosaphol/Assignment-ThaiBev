@@ -7,7 +7,7 @@ export const AddQuestionService = async ({QuestionName, Choice1, Choice2, Choice
     };
 
     try {
-        const response = await fetch('http://localhost:5208/api/Questions', {
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Questions`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -30,7 +30,8 @@ export const AddQuestionService = async ({QuestionName, Choice1, Choice2, Choice
 
 export const GetQuestionsService = async () => {
     try {
-        const response = await fetch('http://localhost:5208/api/Questions', {
+        console.log(import.meta.env.VITE_API_BASE_URL);
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Questions`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -62,7 +63,7 @@ export const GetQuestionsService = async () => {
 export async function DeleteQuestionService(id) {
     try {
         console.log('delete id:',id)
-        const response = await fetch(`http://localhost:5208/api/Questions/${id}`, {
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Questions/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

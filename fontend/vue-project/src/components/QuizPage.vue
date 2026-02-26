@@ -49,6 +49,7 @@ export default {
         ,
         async RefreshQuestion(){
             try {
+                 console.log(import.meta.env.VITE_API_BASE_URL);
                 const response = await GetQuestionsService();
                 console.log('response log:',response);
                 let data = response;
