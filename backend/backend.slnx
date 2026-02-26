@@ -1,6 +1,0 @@
-<Solution>
-  <Folder Name="/SqlServer/">
-    <File Path="Dockerfile" />
-  </Folder>
-  <Project Path="QuestionApp/QuestionApp.csproj" />
-</Solution>
